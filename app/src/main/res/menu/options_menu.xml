@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Jugar"
+        android:id="@+id/menuJugar" />
+
+    <item
+        android:title="Config Tema"
+        android:id="@+id/menuConfigs" >
+        <menu>
+            <item
+                android:title="Default"
+                android:id="@+id/menuDefault" />
+            <item
+                android:title="Novedoso"
+                android:id="@+id/menuNovedoso" />
+        </menu>
+    </item>
+
+    <item
+        android:title="Ver Registro"
+        android:id="@+id/menuRegistro" />
+
+    <item
+        android:title="Acerca de"
+        android:id="@+id/menuAcercaDe" />
+
+    <item
+        android:title="Salir"
+        android:id="@+id/menuSalir" />
+
+</menu>
